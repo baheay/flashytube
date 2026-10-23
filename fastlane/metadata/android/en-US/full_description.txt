@@ -1,0 +1,12 @@
+FlashyTube — YouTube, minus the addiction.
+
+Browse, play and download YouTube videos without an algorithmic feed pulling you in. FlashyTube is built around one idea: the benefit of YouTube, without the addiction.
+
+• Search and open videos, channels and playlists directly — including links shared from other apps (a channel or playlist opens inside the app; a single video opens in a quick floating player)
+• Full in-app player: picture-in-picture, swipe gestures for brightness, volume and seeking, playback-speed control
+• Downloads: video, audio-only, or subtitles — with a library that keeps videos, audio, subtitles and favorites organized
+• Channel subscriptions, with no account
+• Light and dark themes; Arabic and English interface
+• No ads, no account, no tracking — everything runs on your device
+
+FlashyTube is free and open-source software (GPL-3.0), powered by the NewPipe Extractor library.

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- One-time gesture hint: hidden forever after the first long-press -->
+    <TextView
+        android:id="@+id/listGestureHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/hint_gestures_list"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/vlistView"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:divider="?attr/colorDivider"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:id="@+id/multiBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/dlCheckedBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="?android:attr/colorPrimary"
+            android:text="@string/btn_dl_selected"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/dlAllBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorSurfaceVariant"
+            android:text="@string/btn_select_all" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Semantic theme attributes: concrete values come from AppTheme / AppTheme.Dark,
+     so switching theme (not system night mode) recolors the whole app. -->
+<resources>
+    <attr name="colorSurface" format="color" />
+    <attr name="colorSurfaceVariant" format="color" />
+    <attr name="colorOnSurface" format="color" />
+    <attr name="colorOnSurfaceVariant" format="color" />
+    <attr name="colorDivider" format="color" />
+    <attr name="colorRowBackground" format="color" />
+</resources>

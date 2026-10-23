@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme: Material Light, no action bar (we draw our own headers). -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/brand_red</item>
+        <item name="android:colorPrimaryDark">@color/brand_red_darker</item>
+        <item name="android:colorAccent">@color/brand_red</item>
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="android:navigationBarColor">@color/light_surface</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorSurfaceVariant">@color/light_surface_variant</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/light_on_surface_variant</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorRowBackground">@color/light_row</item>
+    </style>
+
+    <!-- Dark twin: same semantic attrs, Material dark values. -->
+    <style name="AppTheme.Dark" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/brand_red_dark</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:colorAccent">@color/brand_red_dark</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_surface</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorSurfaceVariant">@color/dark_surface_variant</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/dark_on_surface_variant</item>
+        <item name="colorDivider">@color/dark_divider</item>
+        <item name="colorRowBackground">@color/dark_row</item>
+    </style>
+</resources>
