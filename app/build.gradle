@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ytgrab.app'
+    namespace 'com.flashytube.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId 'com.ytgrab.app'
+        applicationId 'com.flashytube.app'
         minSdk 26
         targetSdk 34
         versionCode 1

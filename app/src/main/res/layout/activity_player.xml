@@ -52,7 +52,7 @@
             android:visibility="gone" />
 
         <!-- Gesture feedback OSD -->
-        <com.ytgrab.app.PlayerGestureOverlay
+        <com.flashytube.app.PlayerGestureOverlay
             android:id="@+id/gestureOsd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -49,12 +49,12 @@ cp "$BLD/base.apk" "$BLD/app.apk"
 (cd "$BLD/dex" && zip -q -j ../app.apk classes*.dex)
 
 echo "== 6. zipalign"
-"$BT/zipalign" -f -p 4 "$BLD/app.apk" "$BLD/ytgrab-unsigned.apk"
+"$BT/zipalign" -f -p 4 "$BLD/app.apk" "$BLD/flashytube-unsigned.apk"
 
 if [ "${SIGN_DEBUG:-0}" = "1" ]; then
   "$BT/apksigner" sign --ks "$SDK/debug.keystore" \
     --ks-pass pass:android --key-pass pass:android \
-    --out "$BLD/ytgrab-debugsigned.apk" "$BLD/ytgrab-unsigned.apk"
-  echo "debug-signed test build: $BLD/ytgrab-debugsigned.apk"
+    --out "$BLD/flashytube-debugsigned.apk" "$BLD/flashytube-unsigned.apk"
+  echo "debug-signed test build: $BLD/flashytube-debugsigned.apk"
 fi
-ls -la "$BLD/ytgrab-unsigned.apk"
+ls -la "$BLD/flashytube-unsigned.apk"

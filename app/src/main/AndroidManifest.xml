@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ytgrab.app">
+    package="com.flashytube.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -91,8 +91,8 @@
             android:name=".AudioActionReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.ytgrab.app.audio.TOGGLE" />
-                <action android:name="com.ytgrab.app.audio.STOP" />
+                <action android:name="com.flashytube.app.audio.TOGGLE" />
+                <action android:name="com.flashytube.app.audio.STOP" />
             </intent-filter>
         </receiver>
 
